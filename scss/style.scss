@@ -1,0 +1,33 @@
+$color-blanco: #f3f3f3;
+$color-gris: #343434;
+$fuente-primaria: roboto; 
+
+
+section{
+    .fondo{
+        background-image: url(../fotos/fondo.jpg);
+        padding: 6rem;
+        background-size: cover;
+        h1{
+            font-size: 2rem;
+            text-align: center;
+            font-family: $fuente-primaria;
+            transition: 150ms ease;
+            &:hover{
+                transform: scale(1.05);
+            }
+        }
+    }
+}
+footer{
+    div{
+        .logo{
+            width: 100px;
+        }
+    }
+}
+    
+
+        
+
+    

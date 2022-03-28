@@ -1,0 +1,21 @@
+section .fondo {
+  background-image: url(../fotos/fondo.jpg);
+  padding: 6rem;
+  background-size: cover;
+}
+section .fondo h1 {
+  font-size: 2rem;
+  text-align: center;
+  font-family: roboto;
+  transition: 150ms ease;
+}
+section .fondo h1:hover {
+  transform: scale(1.05);
+}
+
+.contenedor {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
